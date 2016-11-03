@@ -8,4 +8,10 @@ Learing using level approach help us understand each code from beginner to inter
 
 So enjoy and grow the learning curve, by sharing your tips and views....!!
 
+##For NPM users:
+
+<code>
+npm install -g typescript
+</code>
+
 @austinnoronha
