@@ -1,10 +1,11 @@
 /*
-Type annotations
+Interfaces
 
-Type annotations in TypeScript are lightweight ways to record the intended contract of the function or variable. In this case, we intend the greeter function to be called with a single string parameter.
+In TypeScript, two types are compatible if their internal structure is compatible.
+This allows us to implement an interface just by having the shape the interface requires, without an explicit implements clause.
 */
 function greeter(person) {
-    return "Hello, " + person;
+    return "Hello, My name is " + person.firstName + " " + person.lastName + " & Mobile no is " + person.mobileNo;
 }
-var user = "Jane User";
+var user = { firstName: "Mickey", lastName: "Jones", mobileNo: 98892828728 };
 document.body.innerHTML = greeter(user);
