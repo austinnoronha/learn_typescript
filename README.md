@@ -18,13 +18,21 @@ Then you can start using with branch levels:
 
 <code>
 git checkout level_1
+</code>
 
+<code>
 git checkout level_2
+</code>
 
+<code>
 git checkout level_3
+</code>
 
+<code>
 git checkout level_4
+</code>
 
+<code>
 git checkout level_5
 </code>
 
