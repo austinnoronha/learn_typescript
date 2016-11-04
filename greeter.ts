@@ -1,20 +1,26 @@
 /*
-Interfaces
+Classes
 
-In TypeScript, two types are compatible if their internal structure is compatible. 
-This allows us to implement an interface just by having the shape the interface requires, without an explicit implements clause.
+Finally, lets extend the example one last time with classes. 
+TypeScript supports new features in JavaScript, like support for class-based object-oriented programming.
 */
+
+class Student {
+    fullName: string;
+    constructor(public firstName, public middleInitial, public lastName) {
+        this.fullName = firstName + " " + middleInitial + " " + lastName;
+    }
+}
 
 interface Person {
     firstName: string;
     lastName: string;
-    mobileNo: number;
 }
 
-function greeter(person: Person) {
-    return "Hello, My name is " + person.firstName + " " + person.lastName+" & Mobile no is "+person.mobileNo;
+function greeter(person : Person) {
+    return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-var user = { firstName: "Mickey", lastName: "Jones",  mobileNo: 98892828728};
+var user = new Student("Jane", "M.", "User");
 
 document.body.innerHTML = greeter(user);
