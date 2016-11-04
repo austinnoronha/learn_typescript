@@ -14,4 +14,18 @@ So enjoy and grow the learning curve, by sharing your tips and views....!!
 npm install -g typescript
 </code>
 
+Then you can start using with branch levels:
+
+<code>
+git checkout level_1
+
+git checkout level_2
+
+git checkout level_3
+
+git checkout level_4
+
+git checkout level_5
+</code>
+
 @austinnoronha
