@@ -1,20 +1,12 @@
 /*
-Building your first TypeScript file
+Type annotations
 
-In your editor, type the following JavaScript code in greeter.ts:
-
-Compiling your code
-
-CMD: tsc greeter.ts                    
-
-The result will be a file greeter.js which contains the same JavaScript that you fed in. We’re up and running using TypeScript in our JavaScript app!
-
+Type annotations in TypeScript are lightweight ways to record the intended contract of the function or variable. In this case, we intend the greeter function to be called with a single string parameter.
 */
-
-function greeter(person) {
+function greeter(person: string) {
     return "Hello, " + person;
 }
 
 var user = "Jane User";
 
-document.body.innerHTML = greeter(user); 
+document.body.innerHTML = greeter(user);   
