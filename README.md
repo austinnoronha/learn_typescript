@@ -16,22 +16,28 @@ npm install -g typescript
 
 Then you can start using with branch levels:
 
+
+#1 Building your first TypeScript file
 <code>
 git checkout level_1
 </code>
 
+#2 Type annotations
 <code>
 git checkout level_2
 </code>
 
+#3 Interfaces
 <code>
 git checkout level_3
 </code>
 
+#4 Classes
 <code>
 git checkout level_4
 </code>
 
+#5 Example
 <code>
 git checkout level_5
 </code>
